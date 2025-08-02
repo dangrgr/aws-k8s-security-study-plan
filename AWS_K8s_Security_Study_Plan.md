@@ -65,19 +65,20 @@ This plan blends three learning tracks:
 ## Week 2 — 2025-08-07   Identity & Access   (~9 h)
 
 ### Goals
-1. Watch Cantrill IAM videos + take notes
-2. Complete ACRTP IAM PrivEsc chain lab
-3. Review IAM JSON policy evaluation logic
-4. Read AWS IAM best-practices whitepaper
+1. Read Tutorials Dojo Domain 1: Identity & Access Management (sections 1.1-1.4)
+2. Watch Cantrill IAM videos + take notes
+3. Complete ACRTP IAM PrivEsc chain lab
+4. Review IAM JSON policy evaluation logic
+5. Read AWS IAM best-practices whitepaper
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Cantrill IAM 101–201 videos|2|
-|Tue|Cantrill IAM advanced scenarios|1.5|
+|Mon|TD Domain 1.1-1.2: IAM fundamentals + SCPs + Cantrill IAM 101–201 videos|2.5|
+|Tue|TD Domain 1.3-1.4: Advanced IAM + Cantrill IAM advanced scenarios|2|
 |Wed|ACRTP IAM PrivEsc lab (hands-on)|3|
 |Thu|Read IAM policy evaluation blog; build test cases|1|
-|Fri|Whitepaper skim & notes; recap|1.5|
+|Fri|Whitepaper skim & notes; recap|0.5|
 
 ### Deliverables / Metrics
 - Lab report showing PrivEsc chain & mitigation
@@ -90,19 +91,20 @@ This plan blends three learning tracks:
 ## Week 3 — 2025-08-14   Data Protection (KMS, S3)   (~9 h)
 
 ### Goals
-1. Watch Cantrill KMS/S3 security videos
-2. Perform ACRTP S3 Enumeration and KMS key-access labs
-3. Lab: S3 access controls, encryption at rest vs. in transit
-4. Study envelope encryption & key policies
+1. Read Tutorials Dojo Domain 2: Data Protection (sections 2.1-2.4)
+2. Watch Cantrill KMS/S3 security videos
+3. Perform ACRTP S3 Enumeration and KMS key-access labs
+4. Lab: S3 access controls, encryption at rest vs. in transit
+5. Study envelope encryption & key policies
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Cantrill KMS intro & demos|1.5|
-|Tue|Cantrill S3 security module|1.5|
+|Mon|TD Domain 2.1-2.2: KMS fundamentals (key rotation, types) + Cantrill KMS intro & demos|2|
+|Tue|TD Domain 2.3-2.4: S3 security (encryption types, bucket policies) + Cantrill S3 security module|2|
 |Wed|ACRTP S3 Enumeration lab|2|
 |Thu|Lab: S3 ACL vs. bucket policy vs. IAM|2|
-|Fri|Deep-dive on envelope encryption; write summary|2|
+|Fri|Deep-dive on envelope encryption; write summary|1|
 
 ### Deliverables / Metrics
 - S3/KMS lab artefacts & screenshots
@@ -115,19 +117,20 @@ This plan blends three learning tracks:
 ## Week 4 — 2025-08-21   Serverless & Infrastructure Attack Paths  (~10 h)
 
 ### Goals
-1. ACRTP Lambda privilege-escalation lab
-2. Watch Cantrill Lambda security content
-3. Review CloudFormation drift & misconfig issues
-4. Explore IaC scanners (cfn-nag, Checkov)
+1. Read Tutorials Dojo Domain 3: Infrastructure Security (sections 3.1-3.3)
+2. ACRTP Lambda privilege-escalation lab
+3. Watch Cantrill Lambda security content
+4. Review CloudFormation drift & misconfig issues
+5. Explore IaC scanners (cfn-nag, Checkov)
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Cantrill Lambda security videos|2|
-|Tue|ACRTP Lambda PrivEsc lab (hands-on)|3|
+|Mon|TD Domain 3.1: Lambda security + Cantrill Lambda security videos|2.5|
+|Tue|TD Domain 3.2-3.3: Infrastructure security (VPC endpoints) + ACRTP Lambda PrivEsc lab|3|
 |Wed|CloudFormation drift & audit demo|1.5|
 |Thu|Run cfn-nag/Checkov against sample stacks|2|
-|Fri|Blog post: “Top 5 Lambda attack vectors”|1.5|
+|Fri|Blog post: "Top 5 Lambda attack vectors"|1|
 
 ### Deliverables / Metrics
 - Lambda PrivEsc chain write-up & patched policy
@@ -139,16 +142,17 @@ This plan blends three learning tracks:
 ## Week 5 — 2025-08-28   EKS Security Foundations + Hacking K8s Ch. 1–5  (~10 h)
 
 ### Goals
-1. Intro to Kubernetes attack surface
-2. Lab: Create EKS cluster with IRSA; test pod role assumptions
-3. Read chapters 1–5 of *Hacking Kubernetes*
-4. Review IRSA, OIDC providers, and pod-level IAM
-5. Run CIS-EKS benchmark (`kube-bench`) baseline scan
+1. Read Tutorials Dojo Domain 3: Container Security (sections 3.4-3.5)
+2. Intro to Kubernetes attack surface
+3. Lab: Create EKS cluster with IRSA; test pod role assumptions
+4. Read chapters 1–5 of *Hacking Kubernetes*
+5. Review IRSA, OIDC providers, and pod-level IAM
+6. Run CIS-EKS benchmark (`kube-bench`) baseline scan
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Create EKS cluster + IRSA set-up|2|
+|Mon|TD Domain 3.4-3.5: Container security + Create EKS cluster + IRSA set-up|2.5|
 |Tue|Test pod role assumption; demo IRSA|2|
 |Wed|Read Hacking K8s Ch.1–2 + notes|1.5|
 |Thu|Read Ch.3–5|1.5|
@@ -164,19 +168,20 @@ This plan blends three learning tracks:
 ## Week 6 — 2025-09-04   AWS Detection & Logging  (~9 h)
 
 ### Goals
-1. Configure & test GuardDuty, CloudTrail, Security Hub
-2. Watch Cantrill logging & monitoring modules
-3. ACRTP detection-evasion lab
-4. Enable AWS Config & Detective; explore findings
+1. Read Tutorials Dojo Domain 4: Threat Detection & Incident Response (sections 4.1-4.3)
+2. Configure & test GuardDuty, CloudTrail, Security Hub
+3. Watch Cantrill logging & monitoring modules
+4. ACRTP detection-evasion lab
+5. Enable AWS Config & Detective; explore findings
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Enable CloudTrail + GuardDuty baseline|1.5|
-|Tue|Enable Security Hub + Detective integrations|1.5|
+|Mon|TD Domain 4.1: Threat detection + Enable CloudTrail + GuardDuty baseline|2|
+|Tue|TD Domain 4.2-4.3: Incident response + Enable Security Hub + Detective integrations|2|
 |Wed|Cantrill videos on detection & logging|2|
 |Thu|ACRTP detection-evasion lab|2.5|
-|Fri|Review Config rules; weekly recap|1.5|
+|Fri|Review Config rules; weekly recap|0.5|
 
 ### Deliverables / Metrics
 - GuardDuty & Detective findings screenshot bundle
@@ -191,6 +196,7 @@ This plan blends three learning tracks:
 > Use this week to: finish outstanding deliverables, revisit confusing topics, or deepen lab work. If fully caught up, choose an elective mini-project (e.g., automate GuardDuty → Slack alerts).
 
 ### Suggested Activities
+- **TD Review**: Re-read weak domains from Tutorials Dojo guide
 - Close any *open* GitHub issues from Weeks 1–6
 - Re-take baseline mock exam; compare score change
 - Polish notes; generate flashcards for weak domains
@@ -205,19 +211,20 @@ This plan blends three learning tracks:
 ## Week 8 — 2025-09-18   Advanced EKS Attacks + Hacking K8s Ch. 6–9  (~10 h)
 
 ### Goals
-1. Lab: Pod escape, kubelet abuse, RBAC escalation
-2. Read chapters 6–9 of *Hacking Kubernetes*
-3. Enable GuardDuty EKS **Runtime Monitoring**; simulate detections
-4. Review AWS Inspector results for EKS workloads
+1. Read Tutorials Dojo Domain 4: Advanced Threat Detection (sections 4.4-4.5)
+2. Lab: Pod escape, kubelet abuse, RBAC escalation
+3. Read chapters 6–9 of *Hacking Kubernetes*
+4. Enable GuardDuty EKS **Runtime Monitoring**; simulate detections
+5. Review AWS Inspector results for EKS workloads
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Read Hacking K8s Ch.6–7|1.5|
+|Mon|TD Domain 4.4-4.5: Advanced detection + Read Hacking K8s Ch.6–7|2|
 |Tue|Read Ch.8–9|1.5|
 |Wed|Lab: Pod escape & RBAC escalation|3|
 |Thu|Enable GuardDuty EKS Runtime Monitoring; generate test findings|2|
-|Fri|Inspect Inspector reports; weekly recap|2|
+|Fri|Inspect Inspector reports; weekly recap|1.5|
 
 ### Deliverables / Metrics
 - Attack demo scripts pushed to `eks-attacks/`
@@ -229,19 +236,20 @@ This plan blends three learning tracks:
 ## Week 9 — 2025-09-25   Network Firewall, Firewall Manager, Macie + Threat Intel  (~8 h)
 
 ### Goals
-1. Deploy AWS Network Firewall in a sandbox VPC; write Suricata rule to block malicious traffic
-2. Configure AWS Firewall Manager policy to enforce SG baseline across accounts
-3. Run Macie discovery scan & create EventBridge->Lambda auto-remediation for public S3
-4. Skim MadPot IOCs & other threat-intel feeds; update NF Suricata rules
+1. Read Tutorials Dojo Domain 5: Management & Governance (sections 5.1-5.3)
+2. Deploy AWS Network Firewall in a sandbox VPC; write Suricata rule to block malicious traffic
+3. Configure AWS Firewall Manager policy to enforce SG baseline across accounts
+4. Run Macie discovery scan & create EventBridge->Lambda auto-remediation for public S3
+5. Skim MadPot IOCs & other threat-intel feeds; update NF Suricata rules
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Watch Cantrill DDoS & Network Firewall overview|1.5|
-|Tue|Deploy Network Firewall; craft & test Suricata rule|2|
+|Mon|TD Domain 5.1-5.2: Governance + Watch Cantrill DDoS & Network Firewall overview|2|
+|Tue|TD Domain 5.3: Management + Deploy Network Firewall; craft & test Suricata rule|2.5|
 |Wed|Set up Firewall Manager SG baseline policy and evaluate|1.5|
 |Thu|Run Macie scan; build Lambda auto-remediation for public objects|1|
-|Fri|Ingest MadPot IOCs; update NF rules; weekly recap|2|
+|Fri|Ingest MadPot IOCs; update NF rules; weekly recap|1|
 
 ### Deliverables / Metrics
 - Network Firewall JSON policy & Suricata rule committed
@@ -271,19 +279,20 @@ This plan blends three learning tracks:
 ## Week 11 — 2025-10-09   Exam Review — IAM, KMS, Detection   (~7 h)
 
 ### Goals
-1. Mock exam 1 (full TD practice test) — review & analyse
-2. Flashcards + cheat-sheet review (focus: IAM/KMS/S3)
-3. Lab revisit: IAM & KMS misconfigs and fixes
-4. Write concise notes for rapid recall
+1. Read Tutorials Dojo Domain 6: Application Security (sections 6.1-6.2)
+2. Mock exam 1 (full TD practice test) — review & analyse
+3. Flashcards + cheat-sheet review (focus: IAM/KMS/S3)
+4. Lab revisit: IAM & KMS misconfigs and fixes
+5. Write concise notes for rapid recall
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Take Mock exam 1|2|
+|Mon|TD Domain 6.1-6.2: Application security + Take Mock exam 1|3|
 |Tue|Analyse wrong answers|1.5|
 |Wed|Flashcards review|1|
 |Thu|Lab revisit & patch misconfigs|1.5|
-|Fri|Summarise notes; recap|1|
+|Fri|Summarise notes; recap|0|
 
 ### Deliverables / Metrics
 - Mock exam 1 (TD full-length) score ≥ 75 %
@@ -294,19 +303,20 @@ This plan blends three learning tracks:
 ## Week 12 — 2025-10-16   Exam Review — Containers, Serverless, Edge   (~7 h)
 
 ### Goals
-1. Mock exam 2 (TD full practice test #2) — track progress
-2. Focus areas: Lambda, EKS, WAF, CloudFront, IRSA
-3. Summarise key Kubernetes attack paths
-4. Triage weaknesses from mock review
+1. Read Tutorials Dojo Domain 6: Advanced Application Security (sections 6.3-6.4)
+2. Mock exam 2 (TD full practice test #2) — track progress
+3. Focus areas: Lambda, EKS, WAF, CloudFront, IRSA
+4. Summarise key Kubernetes attack paths
+5. Triage weaknesses from mock review
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Mock exam 2|2|
+|Mon|TD Domain 6.3-6.4: Advanced app security + Mock exam 2|3|
 |Tue|Analyse results|1.5|
 |Wed|Lambda & CloudFront flashcards|1|
 |Thu|EKS attack-path mind-map|1.5|
-|Fri|Triage doc + recap|1|
+|Fri|Triage doc + recap|0|
 
 ### Deliverables / Metrics
 - Mock exam 2 (TD full-length) score ≥ 80 %
@@ -317,15 +327,16 @@ This plan blends three learning tracks:
 ## Week 13 — 2025-10-23   Final Review + Exam Week   (~5 h + exam day)
 
 ### Goals
-1. Mock exam 3 — final pass
-2. Re-watch select Cantrill videos (weak areas only)
-3. Skim all flashcards once
-4. Rest, test readiness, sit for exam!
+1. Read Tutorials Dojo: Full Review & Exam Strategies (final sections)
+2. Mock exam 3 — final pass
+3. Re-watch select Cantrill videos (weak areas only)
+4. Skim all flashcards once
+5. Rest, test readiness, sit for exam!
 
 ### Daily Breakdown
 |Day|Activity|hrs|
 |---|--------|---|
-|Mon|Mock exam 3|2|
+|Mon|TD Final Review + Mock exam 3|3|
 |Tue|Video rewatch (targeted)|1.5|
 |Wed|Flashcard blitz|1|
 |Thu|Light rest / walk-through notes|0.5|
