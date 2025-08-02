@@ -1,0 +1,65 @@
+# Copyrighted Study Materials
+*.pdf
+*.PDF
+
+# AWS Credentials and Sensitive Files
+.aws/
+aws-credentials.txt
+*.pem
+*.key
+*.crt
+*.p12
+
+# Terraform and Infrastructure Files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+
+# Lab Artifacts and Screenshots
+screenshots/
+lab-artifacts/
+*.png
+*.jpg
+*.jpeg
+
+# Personal Notes and Temporary Files
+notes/personal/
+temp/
+*.tmp
+*.log
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+
+# Backup Files
+*.bak
+*.backup 
