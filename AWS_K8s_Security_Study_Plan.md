@@ -41,20 +41,24 @@ This plan blends three learning tracks:
 3. Schedule ACRTP exam & choose AWS Cyber Range track
 4. Set up lab environment (IAM, S3, Lambda basics)
 
+### Weekend Catch-up Plan
+- **Saturday**: Analyze mock results, identify weak areas, review TD explanations
+- **Sunday**: Schedule ACRTP exam, choose Cyber Range track, AND lab environment setup with Terraform bootstrap
+
 ### Daily Breakdown
 | Day | Activity | Est. hrs |
 |-----|----------|----------|
-|Mon  | Skim exam guide & outline domain weights | 1.5 |
-|Tue  | Take baseline mock exam (Timed, 65 Q) | 2 |
-|Wed  | Analyse mock results; log weak areas | 1 |
-|Thu  | Schedule ACRTP exam & pick Cyber Range track | 0.5 |
-|Fri  | Build lab AWS account + Terraform bootstrap | 3 |
+|Thu  | Skim exam guide & outline domain weights | 1.5 |
+|Fri  | Take baseline mock exam (Timed, 65 Q) | 2 |
+|Sat  | Analyse mock results; log weak areas | 1 |
+|Sun  | Schedule ACRTP exam, Pick Cyber Range track, Build lab AWS account + Terraform bootstrap | 3.5 |
 
 ### Deliverables / Metrics
-- Baseline mock-exam score recorded (target ⩾ 50 %)
+- Baseline mock-exam score recorded (target ⩾ 50 %) ✅ **67.69% - EXCEEDED!**
 - ACRTP & Cyber Range dates booked
 - `lab-bootstrap/` repository pushed; screenshot of successful `terraform apply`
 - Week-1 recap note (≥ 250 words) committed
+- Knowledge gaps analysis completed and documented
 
 ---
 
